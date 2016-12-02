@@ -1,0 +1,79 @@
+{
+  "name": "ng2-chartjs2",
+  "version": "1.2.0",
+  "description": "Chart.js 2.0 definitions for Angular 2",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "build": "ngc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyramedia/ng2-chartjs2.git"
+  },
+  "keywords": [
+    "angular2",
+    "chart.js",
+    "charts",
+    "ng2",
+    "angularjs"
+  ],
+  "author": {
+    "name": "Zyra Media Inc"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zyramedia/ng2-chartjs2/issues"
+  },
+  "homepage": "https://github.com/zyramedia/ng2-chartjs2#readme",
+  "devDependencies": {
+    "@angular/common": "~2.0.1",
+    "@angular/compiler": "^2.0.1",
+    "@angular/compiler-cli": "^0.6.3",
+    "@angular/core": "~2.0.1",
+    "@angular/platform-browser": "~2.0.1",
+    "@angular/platform-browser-dynamic": "~2.0.1",
+    "concurrently": "3.0.0",
+    "core-js": "2.4.1",
+    "lite-server": "2.2.2",
+    "reflect-metadata": "0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.39",
+    "typescript": "2.0.3",
+    "typings": "1.4.0",
+    "zone.js": "0.6.25"
+  },
+  "gitHead": "2b5094994618eef4147d322f0e9fc4e87df771a6",
+  "_id": "ng2-chartjs2@1.2.0",
+  "_shasum": "3e95831480155a610348118b627567747c3e0955",
+  "_from": "ng2-chartjs2@>=1.2.0 <2.0.0",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.8.0",
+  "_npmUser": {
+    "name": "ihadeed",
+    "email": "i.hadeed@zyra.ca"
+  },
+  "dist": {
+    "shasum": "3e95831480155a610348118b627567747c3e0955",
+    "tarball": "https://registry.npmjs.org/ng2-chartjs2/-/ng2-chartjs2-1.2.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "ihadeed",
+      "email": "i.hadeed@zyra.ca"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ng2-chartjs2-1.2.0.tgz_1476426799212_0.7152644291054457"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/ng2-chartjs2/-/ng2-chartjs2-1.2.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
